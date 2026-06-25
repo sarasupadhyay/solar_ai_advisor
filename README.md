@@ -191,7 +191,8 @@ python test_time_series.py     # Unit tests for time-series builder
 | Function | Description |
 |----------|-------------|
 | get_nasa_irradiance(lat, lon) | Fetch average annual irradiance for a location |
-| unning_financial_analysis(area_sqft, lat, lon, monthly_units) | Full financial analysis |
+| 
+unning_financial_analysis(area_sqft, lat, lon, monthly_units) | Full financial analysis |
 | uild_generation_timeseries(area_sqft, lat, lon) | Daily / weekly / monthly / yearly generation forecast |
 | calculate_uppcl_bill(units) | UPPCL slab-based electricity bill calculator |
 
@@ -247,7 +248,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## 👥 Authors
 
-- **Your Name** — [YourGitHub](https://github.com/yourusername)
+- Saras Kumar Upadhyay  — [YourGitHub](https://github.com/sarasupadhyay)
 
 ---
 
