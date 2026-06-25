@@ -1,0 +1,16 @@
+[theme]
+# Default dark theme — matches the original COLOR_COMPARISON.md palette
+base                     = "dark"
+primaryColor             = "#FFA500"   # Bright orange accent
+backgroundColor          = "#0F172A"   # Deep slate
+secondaryBackgroundColor = "#1E293B"   # Card / widget background
+textColor                = "#F1F5F9"   # Near-white text
+font                     = "sans serif"
+
+[server]
+headless   = true
+enableCORS = false
+port       = 8501
+
+[browser]
+gatherUsageStats = false

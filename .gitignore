@@ -1,0 +1,67 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+.streamlit/secrets.toml
+
+# Streamlit cache
+.streamlit/cache/
+
+# FAISS index (pre-built — committed so app works on Streamlit Cloud)
+faiss_index/
+!faiss_index/
+!faiss_index/*.faiss
+!faiss_index/*.pkl
+
+# Byte-compiled
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS metadata
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary scratch files inside Solar_documents
+Solar_documents/tempCodeRunnerFile.py
+Solar_documents/checkpdf.py
+Solar_documents/ERROR
